@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+  --Soft-orange:hsl(35, 77%, 62%);
+  --Soft-red:hsl(5, 85%, 63%);
+  --Off-white:hsl(36, 100%, 99%);
+  --Grayish-blue:hsl(233, 8%, 79%);
+--Dark-grayish-blue:hsl(236, 13%, 42%);
+--Very-dark-blue: hsl(240, 100%, 5%);
+}
+
+body{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+nav{
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.nav-menu-icon{
+    display: none;
+}
+
+@media(max-width:765px){
+    .nav-menu-icon
+}
